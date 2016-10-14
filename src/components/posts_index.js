@@ -9,7 +9,6 @@ import { fetchPosts } from '../actions/index';
 
 class PostsIndex extends Component {
     componentWillMount() {  //called just before component appears on the DOM - lifecycle method
-        console.log('calling action creator');
         this.props.fetchPosts();
     }
 
